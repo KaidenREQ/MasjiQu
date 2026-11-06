@@ -11,7 +11,7 @@ import java.security.spec.X509EncodedKeySpec
 // Lisensi offline: tanda tangan ECDSA P-256 atas "SMTV1|<ID perangkat>"
 object License {
     // Tempel kunci publik hasil `python tools/license.py genkey` di antara tanda kutip
-    private const val PUB = "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE+dB6TIhNGUBsz5seeDXQXdYw6kAyh0JZDELEeoMutEUg8F0ccLDBAOf17avC+gZt39ivh38sS8Ow7u039/vGKQ=="
+    private const val PUB = "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8IX+1VGYXSTCQzJNerGAgLa+ig04pmf90IFXn/WSFmHLaCXj0tHClUyXA/fNHsGESlJMdH7Uf8BzcazY/K5j1A=="
 
     private fun sp(c: Context) = c.getSharedPreferences("lic", Context.MODE_PRIVATE)
 
